@@ -43,3 +43,14 @@ tr:nth-child(even){
     list-style-type: upper-roman;
     /* upper-roman, lower-roman, upper-alpha, lower-alpha, lower-greek, upper-greek */
 }
+
+li{
+    margin: 5px;
+    padding: 10px;
+    /*background-color: burlywood;*/
+    /*display: inline-block;*/
+}
+
+li:hover, li:active {
+    background-color: yellow;
+}
