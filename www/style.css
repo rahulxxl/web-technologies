@@ -1,0 +1,45 @@
+.tb-b{
+    border: 2px solid black;
+}
+
+.tb-w-100{
+    width: 100%;
+}
+
+.tb-h{
+    height:120px;
+}
+
+.td-txt-center{
+    text-align: center;
+}
+
+.td-txt-right{
+    text-align: right;
+}
+
+.td-txt-justify{
+    text-align: justify;
+}
+
+.td-p{
+    padding: 20px;
+}
+
+tr:hover{
+    background-color: grey;
+}
+
+tr:nth-child(even){
+    background-color: aqua;
+}
+
+.ulist-style{
+    list-style-type: circle;
+    /* circle, disc, square */
+}
+
+.olist-style{
+    list-style-type: upper-roman;
+    /* upper-roman, lower-roman, upper-alpha, lower-alpha, lower-greek, upper-greek */
+}
