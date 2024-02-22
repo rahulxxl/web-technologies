@@ -1,13 +1,23 @@
-.tb-b{
-    border: 2px solid black;
+.h1-center{
+    text-align: center;
 }
 
-.tb-w-100{
-    width: 100%;
+table, th, td{
+    /* This will display borders*/
+    border: 2px solid black;
+    /* This will display borders with no spaces between them */
+    border-collapse: collapse;
+}
+
+.tb-w{
+    /* This will set the width of the table */
+    /* width: 100%; */
+    width: 300px;
 }
 
 .tb-h{
-    height:120px;
+    /* This will set the height of the table */
+    height:250px;
 }
 
 .td-txt-center{
@@ -26,31 +36,39 @@
     padding: 20px;
 }
 
-tr:hover{
-    background-color: grey;
+tr:nth-child(even){
+    /* Select the even rows only. */
+    background-color: rgb(240, 240, 240);
 }
 
-tr:nth-child(even){
-    background-color: aqua;
+tr:hover{
+    /* If you place your mouse pinter over any row, this will change the background color */
+    background-color: rgb(196, 196, 196);
 }
 
 .ulist-style{
-    list-style-type: circle;
+/*  include this class in Unordered List <ul>. Change the values as given in comments
+    to see the effect */
+    list-style-type: disc;
     /* circle, disc, square */
 }
 
 .olist-style{
-    list-style-type: upper-roman;
-    /* upper-roman, lower-roman, upper-alpha, lower-alpha, lower-greek, upper-greek */
+/*  include this class in Ordered List <ol>. Change the values as given in comments
+    to see the effect */
+    list-style-type: upper-latin;
+    /* none, upper-roman, lower-roman, upper-alpha, lower-alpha, armenian, georgian,
+       lower-greek, */
 }
 
 li{
-    margin: 5px;
+    margin:10px;
     padding: 10px;
     /*background-color: burlywood;*/
     /*display: inline-block;*/
 }
 
-li:hover, li:active {
+li:hover {
+ /* If you place your mouse pinter over any list item, this will change the background color */
     background-color: yellow;
 }
